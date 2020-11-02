@@ -12,7 +12,7 @@ body{
 
 .head .content{
 
-  background-image: linear-gradient(to right, violet,purple,#ff4d73,blue);
+  background-image: linear-gradient(to left, blue,purple,#ff4d73);
   background-color: white;
     background-position: center;
     background-size: cover;
@@ -93,7 +93,7 @@ h4{
 h1{
     text-align: center;
     padding-top: 100px;
-    color: black;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1::after{
