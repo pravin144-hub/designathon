@@ -11,7 +11,7 @@ body{
 }
 
 .head .content{
-  background-image: linear-gradient(to right violet,purple,#ff4d73);
+  background-image: linear-gradient(to right,purple,#ff4d73);
   background-color: white;
     background-position: center;
     background-size: cover;
