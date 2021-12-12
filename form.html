@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cognizance-login</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="cont_centre">
+
+            <div class="cont_login">
+                <div class="cont_info_log_sign_up">
+                    <div class="col_md_login">
+                        <h2>LOGIN</h2>
+                        <p>Login into your existing account.</p>
+                        <button class="btn_login" onclick="login()">LOGIN</button>
+                    </div>
+                    <div class="col_md_sign_up">
+                        <h2>SIGN UP</h2>
+                        <p>Create new account.</p>
+                        <button class="btn_sign_up" onclick="sign_up()">SIGN UP</button>
+                    </div>
+                </div>
+
+
+                <div class="cont_back_info">
+                    <div class="cont_img_back_grey">
+                        <img src="https://th.bing.com/th/id/OIP.IG8SKQyQQf0Iy9XUPlOdlQHaEK?pid=Api&rs=1" alt="" />
+                    </div>
+
+                </div>
+                <div class="cont_forms">
+                    <div class="cont_img_back_">
+                        <img src="http://tpgit.edu.in/wp-content/uploads/2018/07/computer-sci.jpg" alt="" />
+                    </div>
+                    <div class="cont_form_login">
+                        <a href="#" onclick="login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>LOGIN</h2>
+                        <input type="text" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <button class="btn_login" onclick="login()">LOGIN</button>
+                    </div>
+
+                    <div class="cont_form_sign_up">
+                        <a href="#" onclick="login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>SIGN UP</h2>
+                        <input type="text" placeholder="Name" required>
+                        <input type="text" placeholder="Roll Number" required>
+                        <br><br>
+                        <select type="select" name="Department" required>
+                            <option value="" disabled selected>Department</option>
+                            <option value="CSE">CSE</option>
+                            <option value="IT">IT</option>
+                            <option value="EEE">EEE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EIE">EIE</option>
+                            <option value="Mech">Mech</option>
+                            <option value="MTS">MTS</option>
+                            <option value="Chem">Chem</option>
+                            <option value="ftech">Food Tech</option>
+                        </select>
+                        <input type="tel" placeholder="Phone Number">
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <input type="password" placeholder="Confirm Password" />
+                        <button class="btn_sign_up" onclick="sign_up()">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="form.js"></script>
+</body>
+
+</html>
